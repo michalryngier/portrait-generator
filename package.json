@@ -1,0 +1,36 @@
+{
+  "name": "genetic-portrait-generator",
+  "version": "1.0.0",
+  "description": "Generate portraits using genetic algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "build": "babel src -d dist"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgeFr33man/portrait-generator.git"
+  },
+  "author": "Michal Ryngier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgeFr33man/portrait-generator/issues"
+  },
+  "homepage": "https://github.com/georgeFr33man/portrait-generator#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "bezier-curve": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "interface": "^1.2.1",
+    "jimp": "^0.16.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "nodemon": "^2.0.15",
+    "prettier": "2.5.1"
+  }
+}
